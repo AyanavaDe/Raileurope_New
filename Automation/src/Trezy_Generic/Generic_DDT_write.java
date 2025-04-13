@@ -15,7 +15,7 @@ public static void write(int row, int cell, String ref)
 {
 	Workbook book;
 	FileInputStream fis;
-	String path ="./excel/Trezy_NR.xlsx";
+	String path ="./Excel/Trezy_NR.xlsx";
 	{
 		try 
 		{

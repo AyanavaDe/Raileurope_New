@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
   {
   static String value="";
   static String value1="";
-  static String path ="C:\\Users\\deanu\\eclipse-workspace\\Automation\\Excel\\Trezy_NR.xlsx";
+  static String path ="C:\\Users\\deanu\\git\\repository\\Automation\\Excel\\Trezy_NR.xlsx";
   public static String Origin_Fetch(String sheet, int row, int cell1)
   {
 	try 
