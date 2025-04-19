@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Trezy_Generic.Trezy">
+      <class name="Trezy_Generic.Trezy_updated">
         <methods>
           <include name="CloseApp"/>
-          <include name="OpenApp"/>
           <include name="test1"/>
+          <include name="OpenApp"/>
         </methods>
-      </class> <!-- Trezy_Generic.Trezy -->
+      </class> <!-- Trezy_Generic.Trezy_updated -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

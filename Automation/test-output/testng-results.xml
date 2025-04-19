@@ -2,25 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-13T14:51:20 IST" name="Default suite" finished-at="2025-04-13T14:53:32 IST" duration-ms="132137">
+  <suite started-at="2025-04-19T12:05:49 IST" name="Default suite" finished-at="2025-04-19T12:07:09 IST" duration-ms="80252">
     <groups>
     </groups>
-    <test started-at="2025-04-13T14:51:20 IST" name="Default test" finished-at="2025-04-13T14:53:32 IST" duration-ms="132137">
-      <class name="Trezy_Generic.Trezy">
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Trezy_Generic.Trezy@53ce1329]" started-at="2025-04-13T14:51:20 IST" name="OpenApp" finished-at="2025-04-13T14:51:23 IST" duration-ms="2883" status="PASS">
+    <test started-at="2025-04-19T12:05:49 IST" name="Default test" finished-at="2025-04-19T12:07:09 IST" duration-ms="80252">
+      <class name="Trezy_Generic.Trezy_updated">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:Trezy_Generic.Trezy_updated@53ce1329]" started-at="2025-04-19T12:05:49 IST" name="OpenApp" finished-at="2025-04-19T12:05:53 IST" duration-ms="3413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="test1()[pri:1, instance:Trezy_Generic.Trezy@53ce1329]" started-at="2025-04-13T14:51:23 IST" name="test1" finished-at="2025-04-13T14:53:32 IST" duration-ms="129186" status="FAIL">
+        <test-method signature="test1()[pri:1, instance:Trezy_Generic.Trezy_updated@53ce1329]" started-at="2025-04-19T12:05:53 IST" name="test1" finished-at="2025-04-19T12:07:09 IST" duration-ms="76731" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:38419
+              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:64700
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'AYANAVA', ip: '192.168.29.191', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:38419
+              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:64700
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'AYANAVA', ip: '192.168.29.191', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: driver.version: RemoteWebDriver
@@ -33,7 +33,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-at Trezy_Generic.Trezy.test1(Trezy.java:209)
+at Trezy_Generic.Trezy_updated.test1(Trezy_updated.java:166)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -60,7 +60,7 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:38419
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:64700
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -99,16 +99,16 @@ at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="CloseApp()[pri:0, instance:Trezy_Generic.Trezy@53ce1329]" started-at="2025-04-13T14:53:32 IST" name="CloseApp" finished-at="2025-04-13T14:53:32 IST" duration-ms="26" status="FAIL">
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:Trezy_Generic.Trezy_updated@53ce1329]" started-at="2025-04-19T12:07:09 IST" name="CloseApp" finished-at="2025-04-19T12:07:09 IST" duration-ms="5" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:38419
+              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:64700
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'AYANAVA', ip: '192.168.29.191', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:38419
+              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:64700
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'AYANAVA', ip: '192.168.29.191', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: driver.version: RemoteWebDriver
@@ -148,7 +148,7 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:38419
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:64700
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -187,7 +187,7 @@ at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-      </class> <!-- Trezy_Generic.Trezy -->
+      </class> <!-- Trezy_Generic.Trezy_updated -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

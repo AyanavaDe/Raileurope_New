@@ -83,7 +83,7 @@ public class POM_Class
     @FindBy(xpath="//input[@id='hours']")                                               
     private WebElement Depart_time;
     
-    @FindBy(xpath="(//input[@id='hours']/../../../../../following-sibling::div[1]/ul/li)[15]")                   //specify time as i.e. '7'                     
+    @FindBy(xpath="(//input[@id='hours']/../../../../../following-sibling::div[1]/ul/li)[11]")                   //specify time as i.e. '5'                     
     private WebElement Depart_time_select;
     
                 // Time : 1=00:00    //    5=02:00  //    9=04:00  //    13=06:00  //    17=08:00  //    21=10:00
@@ -118,7 +118,7 @@ public class POM_Class
     @FindBy(xpath="//input[@id='hours']")                                               
     private WebElement Return_time;
     
-    @FindBy(xpath="(//input[@id='hours']/../../../../../following-sibling::div[1]/ul/li)[16]")                   //specify time as i.e. '7:30'                     
+    @FindBy(xpath="(//input[@id='hours']/../../../../../following-sibling::div[1]/ul/li)[12]")                   //specify time as i.e. '5:30'                     
     private WebElement Return_time_select;
     
                 // Time : 1=00:00    //    5=02:00  //    9=04:00  //    13=06:00  //    17=08:00  //    21=10:00
@@ -355,7 +355,7 @@ public class POM_Class
 //	{
 //		return Return_date;
 //	 }
-	
+//	
 	public WebElement Return_date1()
 	{
 		return Return_date1;
