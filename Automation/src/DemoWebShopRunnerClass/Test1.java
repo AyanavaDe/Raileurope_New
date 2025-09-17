@@ -26,8 +26,7 @@ public class Test1 extends BrowserOpenClose
 		r.RegisterButton();
 		r.LogOutLink();                                         //LogOut
 		
-		
-		
+				
 		LoginPage l=new LoginPage(driver);                      //LogIn
 		l.LogInLink();
 		l.email();
