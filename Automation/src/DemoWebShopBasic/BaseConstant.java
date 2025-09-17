@@ -1,4 +1,4 @@
-package DemoWebShopGeneric;
+package DemoWebShopBasic;
 
 public interface BaseConstant 
 {
