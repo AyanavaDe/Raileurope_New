@@ -1,4 +1,4 @@
-package DemoWebShopRunnerClass;
+package DemoWebShopGeneric;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -14,8 +14,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 import org.testng.internal.Arguments;
 
-import DemoWebShopPages.BaseClass;
-import DemoWebShopPages.RegistrationPage;
 import Trezy_Generic.Base_class;
 import net.bytebuddy.asm.Advice.Argument;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -26,7 +24,7 @@ public class TestCase1 extends BaseClass
 //	private static final Object Depart_time_select = null;
 //	static String value="";
 //	static String value1="";
-	WebDriver driver = null;
+	public WebDriver driver;
 @Test(priority = 1)
 
 public void test1() throws InterruptedException

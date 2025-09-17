@@ -1,4 +1,4 @@
-package DemoWebShopPages;
+package DemoWebShopGeneric;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

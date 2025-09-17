@@ -1,4 +1,4 @@
-package DemoWebShopPages;
+package DemoWebShopGeneric;
 
 import java.util.concurrent.TimeUnit;
 

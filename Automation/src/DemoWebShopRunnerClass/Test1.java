@@ -24,7 +24,7 @@ public class Test1 extends BrowserOpenClose
 		r.Password();
 		r.ConfirmPassword();
 		r.RegisterButton();
-		r.LogOutLink();
+		r.LogOutLink();                                         //LogOut
 		
 		
 		
@@ -34,7 +34,7 @@ public class Test1 extends BrowserOpenClose
 		l.password();
 		l.RememberMeCheckbox();
 		l.LogInButton();
-		l.LogOutLink();
+		l.LogOutLink();                                         //LogOut
 		
 		
 		

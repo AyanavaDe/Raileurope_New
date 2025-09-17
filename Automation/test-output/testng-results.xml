@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-17T12:02:12 IST" name="Default suite" finished-at="2025-09-17T12:02:18 IST" duration-ms="5355">
+  <suite started-at="2025-09-17T19:10:52 IST" name="Default suite" finished-at="2025-09-17T19:11:17 IST" duration-ms="24774">
     <groups>
     </groups>
-    <test started-at="2025-09-17T12:02:12 IST" name="Default test" finished-at="2025-09-17T12:02:18 IST" duration-ms="5355">
+    <test started-at="2025-09-17T19:10:52 IST" name="Default test" finished-at="2025-09-17T19:11:17 IST" duration-ms="24774">
       <class name="DemoWebShopRunnerClass.TestCase1">
-        <test-method is-config="true" signature="OpenApp()[pri:0, instance:DemoWebShopRunnerClass.TestCase1@53ce1329]" started-at="2025-09-17T12:02:12 IST" name="OpenApp" finished-at="2025-09-17T12:02:17 IST" duration-ms="5156" status="PASS">
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:DemoWebShopRunnerClass.TestCase1@53ce1329]" started-at="2025-09-17T19:10:52 IST" name="OpenApp" finished-at="2025-09-17T19:11:17 IST" duration-ms="24537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method signature="test1()[pri:1, instance:DemoWebShopRunnerClass.TestCase1@53ce1329]" started-at="2025-09-17T12:02:17 IST" name="test1" finished-at="2025-09-17T12:02:17 IST" duration-ms="13" status="FAIL">
+        <test-method signature="test1()[pri:1, instance:DemoWebShopRunnerClass.TestCase1@53ce1329]" started-at="2025-09-17T19:11:17 IST" name="test1" finished-at="2025-09-17T19:11:17 IST" duration-ms="47" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -52,7 +52,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="CloseApp()[pri:0, instance:DemoWebShopRunnerClass.TestCase1@53ce1329]" started-at="2025-09-17T12:02:17 IST" name="CloseApp" finished-at="2025-09-17T12:02:18 IST" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:DemoWebShopRunnerClass.TestCase1@53ce1329]" started-at="2025-09-17T19:11:17 IST" name="CloseApp" finished-at="2025-09-17T19:11:17 IST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
