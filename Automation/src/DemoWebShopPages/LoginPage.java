@@ -37,7 +37,7 @@ public class LoginPage
 	
 	public void email()
 	{
-		email.sendKeys("pocdemoshop11@yopmail.com");
+		email.sendKeys("pocdemoshop13@yopmail.com");
 	}
 	
 	public void password()

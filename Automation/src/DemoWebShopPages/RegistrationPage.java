@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
  
-public class RegistrationPage1 extends BrowserOpenClose 
+public class RegistrationPage extends BrowserOpenClose 
 {
  
 	@FindBy(xpath = "//a[.='Register']")
@@ -66,7 +66,7 @@ public class RegistrationPage1 extends BrowserOpenClose
 	
 	public void Email()
 	{
-		email.sendKeys("pocdemoshop11@yopmail.com");
+		email.sendKeys("pocdemoshop13@yopmail.com");
 	}
 	
 	public void Password()
@@ -90,7 +90,7 @@ public class RegistrationPage1 extends BrowserOpenClose
 	}
 	
 	
-	public RegistrationPage1(WebDriver driver)
+	public RegistrationPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 		

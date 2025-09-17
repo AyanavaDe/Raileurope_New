@@ -4,7 +4,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DemoWebShopPages.BrowserOpenClose;
 import DemoWebShopPages.LoginPage;
-import DemoWebShopPages.RegistrationPage1;
+import DemoWebShopPages.RegistrationPage;
  
 public class Test1 extends BrowserOpenClose 
 {
@@ -15,7 +15,7 @@ public class Test1 extends BrowserOpenClose
 		
 		BrowserOpenClose opcl= new BrowserOpenClose();
 		opcl.browserOpen();
-		RegistrationPage1 r=new RegistrationPage1(driver);       //Registration
+		RegistrationPage r=new RegistrationPage(driver);       //Registration
 		r.registerLink();
 		r.RadioMale();
 		r.FirstName();
